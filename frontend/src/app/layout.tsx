@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "@xyflow/react/dist/style.css";
 
 import { AppHeader } from "@/components/AppHeader";
+import { BackendHealthCheck } from "@/components/BackendHealthCheck";
 
 import "./globals.css";
 
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <BackendHealthCheck />
         <AppHeader />
         {children}
       </body>
