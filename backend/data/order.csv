@@ -1,0 +1,10 @@
+Activity, Phase, Prerequisite
+Knowdell Values (VAL),Phase A,None (entry point)
+CliftonStrengths (STR),Phase A,None (entry point)
+Skillset Card Sort (SKL),Phase A,None (entry point)
+Energy Mapping (NRG),Phase B,At least 1 Phase A activity
+AI Exploration Generator (AI),Phase C,Phase A + Phase B complete
+Mind Mapping (MM),Phase C,Phase A + Phase B complete
+Decision Matrix (DM),Phase C,Phase A + Phase B complete`
+
+

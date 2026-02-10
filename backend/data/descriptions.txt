@@ -1,0 +1,51 @@
+2. The Activity Library
+The Career Design Lab offers seven core activities, each targeting specific aspects of career development. Understanding what each activity accomplishes is essential for proper triage.
+2.1 Phase A: Foundation Activities
+Knowdell Career Values Card Sort (VAL)
+What it is: A structured card-sorting exercise where students rank 41 career values from "Always Valued" to "Never Valued"
+Duration: 20 minutes
+Purpose: Surfaces intrinsic motivators that drive career satisfaction
+Best for students who: Say things like "I don't know what I actually care about" or "I keep making decisions based on what others expect"
+Tag: VAL
+CliftonStrengths Assessment (STR)
+What it is: Gallup's validated assessment identifying Top 5 talent themes from 34 possible strengths
+Duration: 30-minute online assessment + 30-minute debrief session
+Purpose: Identifies natural talents that can be developed into strengths
+Best for students who: Say things like "I don't really know what I'm good at" or "People say I'm good at things, but I don't really see it"
+Tag: STR
+Skillset Card Sort (SKL)
+What it is: A hands-on sorting activity categorizing skills into "Proficient & Enjoy," "Proficient but Don't Enjoy," "Want to Develop," and "Not Interested"
+Duration: 20 minutes
+Purpose: Helps students articulate transferable skills and recognize what they've learned from experiences
+Best for students who: Say things like "I've done a lot of things, but I can't explain what skills I've actually gained"
+Tag: SKL
+2.2 Phase B: Observation Activity
+Energy Mapping (NRG)
+What it is: A reflective exercise tracking energy levels across daily/weekly activities to identify patterns
+Duration: 30 minutes
+Purpose: Bridges abstract self-knowledge with concrete daily experience; reveals what actually energizes vs. drains
+Best for students who: Say things like "I feel drained but I don't know why" or "I'm just going through the motions"
+Tag: NRG
+Note for Interns: Energy Mapping is the critical "bridge" activity. It connects the abstract self-knowledge from Phase A assessments to real-world experience. Many students skip this step and struggle later because they haven't validated their self-perceptions.
+
+2.3 Phase C: Wayfinding Activities
+AI Exploration Generator (AI)
+What it is: A ChatGPT-based tool that guides students through 7 reflective prompts about energy, values, strengths, academic interests, worldview, work style, and experiences — then generates 12 possible career pathways
+Duration: 20-30 minutes
+Purpose: Synthesizes self-knowledge into concrete career possibilities; AI amplifies patterns, students make meaning
+Best for students who: Have completed Phase A & B and are ready to see how their self-knowledge translates to career options
+The 7 Prompts: (1) What energizes you? (2) What do you value most? (3) What strengths feel natural? (4) What academic topics engaged you? (5) What world issues matter to you? (6) How do you prefer to work? (7) What skills/experiences do you bring?
+Tag: AI
+Key Insight: The AI Exploration Generator requires students to answer questions about their values, strengths, energy, and skills. Without Phase A & B foundation, students will give shallow or inaccurate answers, and the AI output won't be meaningful. This is why it belongs in Phase C.
+Mind Mapping (MM)
+What it is: A facilitated session using physical materials (whiteboard, Post-its) and optional AI analysis to explore career possibilities through divergent thinking
+Duration: 1 hour
+Purpose: Expands career imagination beyond familiar options; generates divergent possibilities through creative exploration
+Best for students who: Say things like "I have no idea what jobs exist for someone like me" or "I feel stuck thinking about the same few ideas"
+Tag: MM
+Decision Matrix (DM)
+What it is: A structured framework for comparing career options across multiple dimensions (resources, likability, confidence, coherence)
+Duration: 30 minutes
+Purpose: Provides systematic decision support for students with multiple options; enables confident choice-making
+Best for students who: Say things like "I have too many ideas and feel paralyzed" or "I keep going back and forth between options"
+Tag: DM
