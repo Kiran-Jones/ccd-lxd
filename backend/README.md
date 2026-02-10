@@ -16,3 +16,19 @@ uvicorn app.main:app --reload --port 8000
 cd backend
 pytest
 ```
+
+## Deployment CORS
+
+Set `CORS_ALLOW_ORIGINS` to your deployed frontend origin(s), comma-separated.
+
+Example:
+
+```bash
+export CORS_ALLOW_ORIGINS="https://app.example.com,https://staging.example.com"
+```
+
+Optional preview-domain regex:
+
+```bash
+export CORS_ALLOW_ORIGIN_REGEX="^https://.*\\.vercel\\.app$"
+```
