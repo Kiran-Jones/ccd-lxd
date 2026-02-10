@@ -13,6 +13,13 @@ def test_health_endpoint_returns_ok() -> None:
     assert response.json() == {"status": "ok"}
 
 
+def test_ready_endpoint_returns_ok() -> None:
+    response = client.get("/api/v1/ready")
+
+    assert response.status_code == 200
+    assert response.json() == {"status": "ok"}
+
+
 def test_cors_allows_localhost_frontend_origin() -> None:
     response = client.options(
         "/api/v1/health",

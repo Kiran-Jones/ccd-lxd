@@ -8,10 +8,28 @@ from functools import lru_cache
 from pathlib import Path
 
 
-ROOT_DIR = Path(__file__).resolve().parents[2]
-QUESTIONS_PATH = ROOT_DIR / "questions.json"
-ORDER_PATH = ROOT_DIR / "order.csv"
-DESCRIPTIONS_PATH = ROOT_DIR / "descriptions.txt"
+BACKEND_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = BACKEND_DIR / "data"
+LEGACY_ROOT_DIR = Path(__file__).resolve().parents[2]
+
+
+def resolve_data_path(filename: str) -> Path:
+    candidates = (
+        DATA_DIR / filename,
+        LEGACY_ROOT_DIR / filename,
+    )
+
+    for path in candidates:
+        if path.exists():
+            return path
+
+    searched_paths = ", ".join(str(path) for path in candidates)
+    raise FileNotFoundError(f"Missing required data file '{filename}'. Checked: {searched_paths}")
+
+
+QUESTIONS_PATH = resolve_data_path("questions.json")
+ORDER_PATH = resolve_data_path("order.csv")
+DESCRIPTIONS_PATH = resolve_data_path("descriptions.txt")
 
 
 @dataclass(frozen=True)
