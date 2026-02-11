@@ -96,6 +96,8 @@ def test_recommendations_appends_submission_row(monkeypatch) -> None:
     assert len(calls) == 1
     assert calls[0]["schema_version"] == "v1"
     assert len(calls[0]["responses"]) == 18
+    assert len(calls[0]["recommendations"]) == 5
+    assert isinstance(calls[0]["recommendations"][0], str)
 
 
 def test_recommendations_returns_success_when_submission_store_fails(monkeypatch) -> None:

@@ -107,7 +107,7 @@ def recommendations(payload: RecommendationRequest, request: Request) -> Recomme
     submission_id = str(uuid4())
     submitted_at_utc = datetime.now(tz=timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     response_values = [str(response) for response in payload.responses]
-    recommendation_values = [item.name for item in items]
+    recommendation_values = [item.get("name", "") for item in items]
     visitor_hash = _extract_visitor_hash(request=request, settings=settings)
 
     try:
